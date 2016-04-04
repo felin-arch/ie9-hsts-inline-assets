@@ -19,6 +19,7 @@
   "homepage": "https://github.com/felin-arch/ie9-hsts-inline-assets#readme",
   "dependencies": {
     "koa": "^1.2.0",
+    "koa-helmet": "^1.0.0",
     "koa-ssl": "^2.0.0",
     "koa-static": "^2.0.0"
   }
