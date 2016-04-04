@@ -1,0 +1,23 @@
+{
+  "name": "ie9-hsts-inline-assets",
+  "version": "1.0.0",
+  "description": "PoC for IE9 HSTS inline asset bug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felin-arch/ie9-hsts-inline-assets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felin-arch/ie9-hsts-inline-assets/issues"
+  },
+  "homepage": "https://github.com/felin-arch/ie9-hsts-inline-assets#readme",
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-static": "^2.0.0"
+  }
+}
