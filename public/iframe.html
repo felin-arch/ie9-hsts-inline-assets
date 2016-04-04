@@ -2,7 +2,23 @@
 <head>
   <title>PoC for IE9 HSTS inline asset bug</title>
 </head>
+<style>
+	div {
+		background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzMzMzMzIiB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNzkyIDE3OTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE2NzEgNTY2cTAgNDAtMjggNjhsLTcyNCA3MjQtMTM2IDEzNnEtMjggMjgtNjggMjh0LTY4LTI4bC0xMzYtMTM2LTM2Mi0zNjJxLTI4LTI4LTI4LTY4dDI4LTY4bDEzNi0xMzZxMjgtMjggNjgtMjh0NjggMjhsMjk0IDI5NSA2NTYtNjU3cTI4LTI4IDY4LTI4dDY4IDI4bDEzNiAxMzZxMjggMjggMjggNjh6Ii8+PC9zdmc+Cg==) no-repeat;
+		border: 1px solid red;
+		padding: 20px;
+	}
+</style>
 <body>
   <p>This is the iframe</p>
+  <ul>
+  	<li>
+  		<div>this div has a base64 background</div>
+  	</li>
+  	<li>
+  		the following image is from a http source
+  		<img src="http://placehold.it/350x150" />
+  	</li>
+  </ul>
 </body>
 </html>
